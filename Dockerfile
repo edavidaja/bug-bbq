@@ -28,7 +28,7 @@ RUN rig add devel --without-pak && \
     rig add 3.4.4 --without-pak
 
 # install "session components"
-ARG RSW_VERSION=2022.07.0-preview+536.pro4
+ARG RSW_VERSION=2022.02.3+492.pro3
 ARG RSW_NAME=rstudio-workbench
 ARG RSW_DOWNLOAD_URL=https://s3.amazonaws.com/rstudio-ide-build/server/bionic/amd64
 RUN apt-get update --fix-missing \
