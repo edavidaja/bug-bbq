@@ -1,7 +1,8 @@
-FROM ubuntu:focal
+FROM ubuntu:bionic
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -y && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    apt-get install -y \
     curl \
     wget \
     krb5-user \
